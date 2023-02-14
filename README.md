@@ -1,4 +1,5 @@
-TerraCore-Smart-Contract
+# TerraCore-Smart-Contract
+
 git clone https://github.com/CryptoGnome/Terracore-Looper.git
 
 cd Terracore-Looper
