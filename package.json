@@ -1,0 +1,15 @@
+{
+  "name": "terracore-looper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hiveio/hive-js": "^2.0.5",
+    "mongodb": "^5.0.1"
+  }
+}
