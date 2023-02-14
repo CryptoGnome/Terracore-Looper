@@ -1,8 +1,9 @@
 const mongodb = require('mongodb');
 const hive = require('@hiveio/hive-js');
+require('dotenv').config();
 
 const MongoClient = mongodb.MongoClient;
-const url = "mongodb+srv://doadmin:2Np9aX8745i3J0Un@db-mongodb-terracore-21084-ca3992ea.mongo.ondigitalocean.com/admin?tls=true&authSource=admin&replicaSet=db-mongodb-terracore-21084";
+const url = process.env.MONGO_URL;
 const dbName = 'terracore';
 const SYMBOL = 'SCRAP';
 
