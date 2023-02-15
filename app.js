@@ -182,7 +182,8 @@ async function main(){
             }
         }
     }
-    
+    //close connection
+    client.close();
     //after all players are updated, sleep for 60 seconds then run main again
     await sleep(60000);
     main();
@@ -193,4 +194,8 @@ async function main(){
 
 
 //run main every 5 seconds
-main();
+try {
+    main(); 
+} catch (error) {
+    console.log(error);
+}
