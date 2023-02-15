@@ -183,7 +183,7 @@ async function main(){
     }
     
     //after all players are updated, sleep for 5 seconds then run main again
-    await sleep(5000);
+    await sleep(15000);
     main();
 
 
