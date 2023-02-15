@@ -72,6 +72,7 @@ async function engineBalance(username) {
 
 //sleep function
 function sleep(ms) {
+    console.log("sleeping for " + ms/1000 + " seconds");
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
@@ -182,7 +183,7 @@ async function main(){
         }
     }
     
-    //after all players are updated, sleep for 5 seconds then run main again
+    //after all players are updated, sleep for 60 seconds then run main again
     await sleep(60000);
     main();
 
